@@ -1,3 +1,6 @@
+@import url ('https://fonts.googleapis.com/css2? família=Comfortaa:wght@300&family=Nunito:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,5 +13,75 @@ body {
 }
 
 .cabecalho {
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabececalho-imagem {
+    height: 40px;
+}
+
+.cabececalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    fonte-família: 'Nunito', sans-serif;
+    color: rgb(214, 225, 235);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 38px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-titulo {
+    fonte-família: 'Comfortaa', cursiva;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.conteudo-botao {
+    background-color: #FFF2E7;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Comfortaa', cursiva;
+    font-weight: 50px;
+    font-size: 24px;
+    color: #2F2325;
+
+
 }
