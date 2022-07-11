@@ -28,56 +28,59 @@
 
         <main>
             <section>
-                <img src="./imagem/imagem de mala" class="rounded mx-auto d-block" alt="imagem central site">
-                <div class="container">
-                    <div class="row align-items-lg-center">
+                <section class="container">
+                    <div class="row align-items-start">
                         <div class="col">
-                            <form action="/action_page.php">
-                                <label for="Embarque"> Onde será seu embarque:</label>
-                                <select id="Embarque" name=" Embarque">
-                                    <option value="São Paulo"> São Paulo</option>
-                                    <option value="Rio de Janeiro">Rio de Janeiro</option>
-                                    <option value=" Curitiba">Curitiba</option>
-                                    <option value="Salvador">Salvador</option>
-                                </select>
-                                <input type="submit">
-                            </form>
+                            <label for="Embarque"> Onde será seu embarque:</label>
+                            <select id="Embarque" name=" Embarque">
+                                <option value="São Paulo"> São Paulo</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                <option value=" Curitiba">Curitiba</option>
+                                <option value="Salvador">Salvador</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label for="Destino"> Escolha o destino:</label>
+                            <select id="Destino" name=" Destino">
+                                <option value="Londres"> Londres</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Japao">Japao</option>
+                            </select>
+                            <input type="submit" href="..." alt="destino">
                         </div>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row align-items-lg-center">
-                        <div class="col">
-                            <form action="/action_page.php">
-                                <label for="Destino"> Escolha o destino:</label>
-                                <select id="Destino" name=" Destino">
-                                    <option value="Londres"> Londres</option>
-                                    <option value="Peru">Peru</option>
-                                    <option value="Japao">Japao</option>
-                                </select>
-                                <input type="submit">
-                            </form>
-            </section>
+                </section>
 
-
-            <section class="conteudo-secundario">
-                <div class="conteudo-secundario-item">
-                    <h3 class="conteudo-secundario-titulo">Destinos Promocionais</h3>
-                    <p class="conteudo-secundario-subtitulo"><strong>"Tudo que você precisa</strong> saber para ter a
-                        melhor <strong>experiência na sua viagem"</strong></p>
-                    <button class="conteudo-segundo-botao"> Saiba mais</button>
-                </div>
-                <img class="conteudo-imagem-secundaria" src="..." alt="...">
-            </section>
+                <section class="conteudo">
+                    <div class="conteudo-principal">
+                        <img class=" conteudo-imagem" src="./imagem/imagem de mala" alt="imagem responsiva">
+                        <h3 class="conteudo-principal-titulo">Destinos Promocionais</h3>
+                        <p class="conteudo-principal-subtitulo"><strong>"Tudo que você precisa</strong> saber para ter a
+                            melhor <strong>experiência na sua viagem"</strong></p>
+                        <button class="conteudo-botao"><a href="./promocao.html"> Saiba mais</a></button>
+                    </div>
+                    <img class="conteudo-imagem-secundaria" src="..." alt="...">
+                </section>
         </main>
+
+
         <footer>
-            <img class="conteudo-rodape">
-            <img class="redes-sociais" src="./imagem/redes sociais.svg" alt="rede sociais"> @ Lolisdu</img>
-            <center>
+            <table class="conteudo-rodape">
+                <tr class="conteudo-rodape">
+                    <td><a class="conteudo-imagem-rodape" href="https://github.com/Lolisdu"><img
+                                src="./imagem/Git hub.svg" alt="Git Hub"></a></td>
+                    <td><a class="conteudo-imagem-rodape"
+                            href="https://www.linkedin.com/in/d%C3%A9bora-pereira-de-oliveira-063953198/"><img
+                                src="./imagem/Linkedin.svg" alt="Linkedin"></a></td>
+                </tr>
+            </table><br>
+
+
+            <br><br><br>
+            <center class="copy">
                 <font> &copy; Débora Oliveira.</font>
-            </center>
+            </center><br>
+
         </footer>
 
 

@@ -8,7 +8,7 @@
 }
 body {
     font-size: 100%;
-    background: rgba(206, 186, 222, 0.27);
+    background: rgba(108, 91, 136, 0.87);
 
 }
 
@@ -41,35 +41,38 @@ body {
     font-size: 20px;
 }
 
+.container {
+    padding-top: 20px;
+    display: block;
+    justify-content:space-around;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.conteudo-imagem {
+    max-height: 100%;
+    height: auto;
+    width: 600px;
+    height: 600px;
+    
+}
+
 .conteudo {
     margin-bottom: 38px;
     border-top: 0.4px solid #FFF2E7;
 }
 
-.conteudo-imagem {
-    max-height: 100%;
-    min-height: 100%;
-    width: 800px;
-    height: 600px;
-    
-}
-
 .conteudo-principal {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-
-
-}
-
-.conteudo-principal-escrito {
-    display: flex;
-    justify-items: center;
     flex-direction: column;
-    gap: 32px;
-
+    align-items:center;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 48px;
 }
+
 
 .conteudo-principal-titulo {
     fonte-família: 'Comfortaa', cursiva;
@@ -108,88 +111,28 @@ body {
     height: 300px;
     padding: 20px;
 }
-
-.conteudo-secundario {
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    gap: 24px;
-    margin-top: 48px;
-}
-
-.conteudo-secundario-item{
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    
-}
-.conteudo-secundario-titulo{
-    display: block;
-    flex-direction: row;
-    justify-items: center;  
-   margin-bottom: 16px;
-   font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color:#2F2325;
-
-}
-
-.conteudo-secundario-subtitulo{
-    align-content: space-between;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #2F2325;
-}
-
-.conteudo-segundo-botao { 
-    background-color: #FFF2E7;
-    align-content: space-between ;
-    width: 160px;
-    height: 60px;
-     border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    font-family: 'Comfortaa', cursiva;
-    font-weight: 50px;
-    font-size: 24px;
-    color: #2F2325;
-
-}
-.conteudo-segundo-botao:hover {
-    background-color: rgba(108, 91, 136, 0.87);
-}
-
-.conteudo-imagem-secundaria{
-    height: 300px;
-    padding: 20px;
-}
-    
-
+ 
 .conteudo-rodape{
     padding: 32px;
-    border-top: 0.4px solid #FFF2E7;
-
-}
-
-.conteudo-imagem-rodape{
+    width: auto;
     height: 48px;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
+   
+   
 }
 
-.redes-sociais {
- border-radius: 10px;
- margin: 0 auto;
-height: 50px;
-justify-content: baseline;
-gap: 50px;
-}
-
-.formulario {
+.conteudo-imagem-rodape{
+    height: auto;
+    width:  auto;
     display: block;
-    flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+    
+}
 
+.copy {
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
