@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Agência de Viagem- Recode Pro</title>
     <link rel="stylesheet" type="text/css" href="./estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+
 <body>
-        <header class="cabecalho">
-            <img class="cabececalho-imagem" src="./imagem/logo ag.svg" alt="Logo">
-            <nav class="cabececalho-menu">
-                <a class="cabecalho-menu-item">Home</a>
-                <a class="cabecalho-menu-item">Destino</a>
-                <a class="cabecalho-menu-item">Promoção</a>
-                <a class="cabecalho-menu-item">Contato</a>
-            </nav>
-        </header>
-        <main class="conteudo">
-            <section class="conteudo-principal">
-                <div class="conteudo-principal-escrito">
-                    <h1 class="conteudo-principal-titulo"> Agência de Viagem</h1>
-                    <h2 class="conteudo-principal-subtitulo"> Os melhores destinos para sua viagem</h2>
-                    <button class="conteudo-botao"> Confira Promoções</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <header class="cabecalho">
+        <table class="cabecalho-inicio" width="100%" bgcolor="purple">
+            <tr class="cabecalho-inicio-table">
+                <td><a class="cabecalho-imagem-logo" href="./index.html"><img src="./imagem/logo ag.svg"
+                            alt=" logo"></a></td>
+                <td><a class="cabecalho-menu-item" href="./index.html"> Destino</a></td>
+                <td><a class="cabecalho-menu-item" href="./promocao.html"> Promoção</a></td>
+                <td><a class="cabecalho-menu-item" href="./contato.html"> Contato</a></td>
+            </tr>
+        </table>
+
+        <main>
+            <section>
+                <img src="./imagem/imagem de mala" class="rounded mx-auto d-block" alt="imagem central site">
+                <div class="container">
+                    <div class="row align-items-lg-center">
+                        <div class="col">
+                            <form action="/action_page.php">
+                                <label for="Embarque"> Onde será seu embarque:</label>
+                                <select id="Embarque" name=" Embarque">
+                                    <option value="São Paulo"> São Paulo</option>
+                                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                    <option value=" Curitiba">Curitiba</option>
+                                    <option value="Salvador">Salvador</option>
+                                </select>
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <img class="conteudo-imagem-centro" src="./imagem/imagem mala.svg" alt="imagem de centro mala">
             </section>
+            <section>
+                <div class="container">
+                    <div class="row align-items-lg-center">
+                        <div class="col">
+                            <form action="/action_page.php">
+                                <label for="Destino"> Escolha o destino:</label>
+                                <select id="Destino" name=" Destino">
+                                    <option value="Londres"> Londres</option>
+                                    <option value="Peru">Peru</option>
+                                    <option value="Japao">Japao</option>
+                                </select>
+                                <input type="submit">
+                            </form>
+            </section>
+
+
             <section class="conteudo-secundario">
                 <div class="conteudo-secundario-item">
-                   <h3 class="conteudo-secundario-titulo">Destinos Promocionais</h3>
-                   <p class="conteudo-secundario-subtitulo"><strong>Tudo que você precisa</strong>saber para ter a melhor <strong>experiência na sua viagem</strong></p>
-                   <button class="conteudo-segundo-botao"> Saiba mais</button>
+                    <h3 class="conteudo-secundario-titulo">Destinos Promocionais</h3>
+                    <p class="conteudo-secundario-subtitulo"><strong>"Tudo que você precisa</strong> saber para ter a
+                        melhor <strong>experiência na sua viagem"</strong></p>
+                    <button class="conteudo-segundo-botao"> Saiba mais</button>
                 </div>
-                <img class="conteudo-imagem-secundaria">
+                <img class="conteudo-imagem-secundaria" src="..." alt="...">
             </section>
         </main>
-    <footer>
-        <footer class="conteudo-rodape">
-            <img class="conteudo-imagem-rodape" src="./imagem/rodapé.svg" alt="rodape">
+        <footer>
+            <img class="conteudo-rodape">
+            <img class="redes-sociais" src="./imagem/redes sociais.svg" alt="rede sociais"> @ Lolisdu</img>
+            <center>
+                <font> &copy; Débora Oliveira.</font>
+            </center>
         </footer>
-    </footer>
-    
+
+
+
 </body>
+
 </html>
