@@ -6,79 +6,99 @@
     <title>Atividade Agência de Viagem- Recode Pro</title>
     <link rel="stylesheet" type="text/css" href="./estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </header>
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <header class="cabecalho">
+
+
+    <header>
         <table class="cabecalho-inicio" width="100%" bgcolor="purple">
             <tr class="cabecalho-inicio-table">
                 <td><a class="cabecalho-imagem-logo" href="./index.html"><img src="./imagem/logo ag.svg"
-                            alt=" logo"></a>
-                </td>
-                <td><a class="cabecalho-menu-item" href="./index.html"></a></td>
-                <td><a class="cabecalho-menu-item" href="./promocao.html"> Promoção</a></td>
+                            alt=" logo"></a></td>
                 <td><a class="cabecalho-menu-item" href="./destino.html"> Destino</a></td>
-                <td><a class="cabecalho-menu-item" href="./contato.html"> Contato</a></td>
+                <td><a class="cabecalho-menu-item" href="./promocao.html">Promoção</a></td>
+                <td><a class="cabecalho-menu-item" href="./contato.html">Contato</a></td>
             </tr>
         </table>
+    </header>
+    <main>
+        <section class="conteudo">
+            <img class="img-fluid" src="./imagem/mapa do mundo.svg" alt="mapa" width="100%" height="400px">
+        </section>
+        <div class="texto-topo">
+            <p class="texto-img"> A viagem do seu sonho, começa aqui! </p>
+        </div>
+        <div>
+            <p class="texto"> Encontre sua viagem </p>
+        </div>
+        <section class="container">
+            <div class="d-flex p-2 gap-5 bg-secondary text-white">
+                
+                <label for="Embarque"> Onde será seu embarque:</label>
+                <select id="Embarque" name=" Embarque">
+                    <option value="São Paulo"> São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value=" Curitiba">Curitiba</option>
+                    <option value="Salvador">Salvador</option>
+                </select>
+            <div class=" d-flex gap-5 bg-secondary text-white">
+                               <label for="Destino"> Escolha o destino:</label>
+                <select id="Destino" name=" Destino">
+                    <option value="Londres"> Londres</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Japao">Japao</option>
+                    <option value="Australia">Australia</option>
+                </select>
+                <div class=" d-flex gap-5 bg-secondary text-white">
 
-        <main>
-
-            <section class="container">
-                <div class="row align-items-start">
-                    <div class="col">
-                        <label for="Embarque"> Onde será seu embarque:</label>
-                        <select id="Embarque" name=" Embarque">
-                            <option value="São Paulo"> São Paulo</option>
-                            <option value="Rio de Janeiro">Rio de Janeiro</option>
-                            <option value=" Curitiba">Curitiba</option>
-                            <option value="Salvador">Salvador</option>
-                        </select>
-                    </div>
-                    <div class="col">
-                        <label for="Destino"> Escolha o destino:</label>
-                        <select id="Destino" name=" Destino">
-                            <option value="Londres"> Londres</option>
-                            <option value="Peru">Peru</option>
-                            <option value="Japao">Japao</option>
-                        </select>
-                        <input type="submit" href="..." alt="destino">
-                    </div>
+                    <label for="Passageiros"> Quantos Passageiros: </label>
+                    <select id="Passageiros" name=" Passageiros">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="vários">vários</option>
+                    </select>
+                    <input type="submit" href="..." alt="destino">
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section>
-                <div>
-                    <h3 class="conteudo-principal-titulo">Destinos Promocionais</h3>
-                    <p class="conteudo-principal-subtitulo"><strong>"Tudo que você precisa</strong> saber para ter a
-                        melhor <strong>experiência na sua viagem"</strong></p>
-                    <button class="conteudo-botao"><a href="./promocao.html"> Saiba mais</a></button>
-                </div>
-                <img class=" conteudo-imagem" src="./imagem/imagem de mala" alt="imagem responsiva">
-            </section>
-        </main>
-
-
-        <footer>
-            <table class="conteudo-rodape">
-                <tr class="conteudo-rodape">
-                    <td><a class="conteudo-imagem-rodape" href="https://github.com/Lolisdu"><img
-                                src="./imagem/Git hub.svg" alt="Git Hub" width="75px"></a></td>
-                    <td><a class="conteudo-imagem-rodape"
-                            href="https://www.linkedin.com/in/d%C3%A9bora-pereira-de-oliveira-063953198/"><img
-                                src="./imagem/Linkedin.svg" alt="Linkedin" width="75px"></a></td>
-                </tr>
-            </table><br>
+        <section class="conteudo-meio">
+            <div class="conteudo-principal">
+                <h3 class="conteudo-titulo">Destinos Promocionais</h3>
+                <p class="conteudo-subtitulo"><strong>"Tudo que você precisa</strong> saber para ter a
+                    melhor <strong>experiência na sua viagem"</strong></p>
+                <button class="conteudo-botao"><a href="./promocao.html"> Saiba mais</a></button>
+            </div>
+            <img class=" img-centro" src="./imagem/meio.svg" alt="img-centro">
+        </section>
+    </main>
 
 
-            <br><br><br>
-            <p class="copy">
-            <p> &copy; Débora Oliveira </p><br>
-        </footer>
+    <footer>
+        <section class="conteudo-footer">
+            <img class="conteudo-rodape">
+            <div>
+                <p class="texto-rodape"> Redes Socias </p>
+                <img class="conteudo-imagem-rodape" src="./imagem/Git hub.svg" alt="Git Hub" width="50px"></img>
+                <img class="conteudo-imagem-rodape" src="./imagem/Linkedin.svg" alt="Linkedin" width="50px"></img>
+            </div>
+        </section>
+        <section class="telefone-principal">
+            <div class="telefone">
+                <h4 class="tel"> Contato</h4>
+                <img class="tele" src="./telefone.svg" alt="telefone"> (11) 9999- 0876 </img>
+            </div>
+        </section>
+        <section>
+            <div class="copy">
+                <p class="copy-texto"> &copy; Débora Oliveira 2022</p><br>
+            </div>
+        </section>
+    </footer>
 
 
 </body>

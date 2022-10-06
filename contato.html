@@ -15,59 +15,68 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <nav>
-        <table class="cabecalho-inicio" width="100%" bgcolor="purple">
-            <tr class="cabecalho-inicio-table">
-                <td><a class="cabecalho-imagem-logo" href="./index.html"><img src="./imagem/logo ag.svg"
-                            alt=" logo"></a></td>
-                <td><a class="cabecalho-menu-item" href="./destino.html"> Destino</a></td>
-                <td><a class="cabecalho-menu-item" href="./promocao.html">Promoção</a></td>
-                <td><a class="cabecalho-menu-item" href="./contato.html">Contato</a></td>
+    <header>
+        <nav>
+            <table class="cabecalho-inicio" width="100%" bgcolor="purple">
+                <tr class="cabecalho-inicio-table">
+                    <td><a class="cabecalho-imagem-logo" href="./index.html"><img src="./imagem/logo ag.svg"
+                                alt=" logo"></a></td>
+                    <td><a class="cabecalho-menu-item" href="./destino.html"> Destino</a></td>
+                    <td><a class="cabecalho-menu-item" href="./promocao.html">Promoção</a></td>
+                    <td><a class="cabecalho-menu-item" href="./contato.html">Contato</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <section class="contato">
+        <table border="0" width="100%" cellpading="20">
+            <tr>
+                <td width="33%" align="center">
+                    <h3>São Paulo</h3>
+                    <p> Avenida Paulista, 999</p>
+                    <p> 4 &ordm; andar</p>
+                    <p>Consolação</p>
+                    <p> (11) 88888-8888</p>
+                </td>
+
+                <td width="33%" align="center">
+                    <h3> Santa Catarina</h3>
+                    <p> São João de Assis, 999</p>
+                    <p> 2 &ordm; andar</p>
+                    <p>Centro</p>
+                    <p> (41) 88888-8888</p>
+                </td>
             </tr>
         </table>
-    </nav>
-
-    <table border="0" width="100%" cellpading="20">
-        <tr>
-            <td width="33%" align="center">
-                <h3>São Paulo</h3>
-                <p> Avenida Paulista, 999</p>
-                <p> 4 &ordm; andar</p>
-                <p>Consolação</p>
-                <p> (11) 88888-8888</p>
-            </td>
-
-            <td width="33%" align="center">
-                <h3> Santa Catarina</h3>
-                <p> São João de Assis, 999</p>
-                <p> 2 &ordm; andar</p>
-                <p>Centro</p>
-                <p> (41) 88888-8888</p>
-            </td>
-        </tr>
-    </table>
-
-    <form width="50%" align="center" class="formulario">
-        <label for="Comentário"> Deixe seu comentário</label><br>
-        <input type="text" id="comentário" value="Escreva aqui..."><br>
-        <input type="enviar" value="Enviar">
-    </form>
-
-
+        </section>
+        <section class="formulario">
+        <div class="sm-2">
+            <label for="exampleFormControlInput1" class="form-label">Email </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="sm-2">
+            <label for="exampleFormControlTextarea1" class="form-label">Escreva sua mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3"> Enviar</button>
+          </div>
+        </section>
+    </main>
     <footer>
-        <table class=" conteudo-rodape" width="15%" align="center" class="rodapé">
-            <tr class="conteudo-rodape">
-                <td>
-                    <p class="conteudo-rodape-escrito" width="75px"> Rede Social</p></td>
-                <td><a class="redes-sociais" href="https://github.com/Lolisdu"><img src="./imagem/Git hub.svg"
-                            alt="Git Hub" width="75px"></a></td>
-                <td><a class="redes-sociais"
-                        href="https://www.linkedin.com/in/d%C3%A9bora-pereira-de-oliveira-063953198/"><img
-                            src="./imagem/Linkedin.svg" alt="Linkedin" width="75px"></a></td>
-            </tr>
-        </table><br>
-        <br>
-            <p class="copy" ali> &copy; Débora Oliveira.</p>
+        <section class="conteudo-footer">
+            <div class="conteudo-rodape">
+                <p class="texto-rodape"> Redes Socias </p>
+                <img class="conteudo-imagem-rodape" src="./imagem/Git hub.svg" alt="Git Hub" width="50px"></img>
+                <img class="conteudo-imagem-rodape" src="./imagem/Linkedin.svg" alt="Linkedin" width="50px"></img>
+            </div>
+        </section>
+        <section>
+            <div class="copy">
+                <p class="copy-texto"> &copy; Débora Oliveira 2022</p><br>
+            </div>
+        </section>
     </footer>
 </body>
 

@@ -6,9 +6,18 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body {
+.body {
     font-size: 100%;
     background: rgba(108, 91, 136, 0.87);
+
+}
+
+.main{
+    font-family: Coustard;
+    position: absolute;
+    width: 200px;
+     height: 50 px;
+
 
 }
 
@@ -17,7 +26,8 @@ body {
     flex-direction:row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 15px;
+    gap: 30px;
 }
 .cabecalho-inicio-table {
     display: flex;
@@ -25,12 +35,15 @@ body {
     align-items: center;
     justify-content: space-around;
     gap: 30px;
+    
 }
 
 .cabececalho-imagem-logo {
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
+    width: 30px;
+    height: 20px;
     
 }
 
@@ -39,47 +52,101 @@ body {
     color: #FFF2E7;
     font-weight: 400;
     font-size: 20px;
+    text-decoration: none;
 }
 
-.container {
-    padding-top: 20px;
-    display:inline-block;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 500;
-    font-size: 20px;
+
+.conteudo {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ margin-left: 70.5px;
+ margin-right: 30px;
+ 
 }
 
-.conteudo-imagem {
-    max-height: 100%;
-    height: auto;
-    width: 600px;
-    height: 600px;
+.img-fluid {
+
+    max-width: 100%;
+    height: 100%;
+}
+
+.texto-topo{
+    position: absolute;
+    background: #C4A6D2;
+    border-radius: 20px;
+    margin-left: 80.5px;
+    margin-top: -20px;
+    width: 433px;
+    height: 61px;
+
+}
+
+.texto-img {
+    font-family:'Comforta', sans-serif;
+    color:black;
+    font-size: auto;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    height: 96 px;
+    position: absolute;
+   
+}
+.texto{
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color:#8A1C79;
+    margin-left: 80.5px;
+    padding: 50px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+     margin-top: -30px;
+    justify-content:space-around;
+    
     
 }
 
 
 
-.conteudo-principal{
+.conteudo-meio{
+   
     display: flex;
     flex-direction: row;
-    align-content: center;
+    text-align: center;
     justify-content: space-around;
+    padding: 80px;
+    margin-top: 50px;
+
+
 
 }
 
-.conteudo-principal-titulo {
-       font-family:  'Comfortaa', cursiva;
+.conteudo-titulo {
+    font-family:  'Comfortaa', cursiva;
     font-weight: 100;
     font-size: 50px;
     color:#2F2325;
+    gap: 20px;
+   padding: 50px;
+
 
 }
 
-.conteudo-principal-subtitulo {
-       font-family: 'Nunito', sans-serif;
+.conteudo-subtitulo {
+    
+    font-family: 'Nunito', sans-serif;
     font-weight: 200;
     font-size: 24px;
     color:#2F2325;
+    padding: 10px;
+
 
 }
 
@@ -94,44 +161,116 @@ body {
     font-weight: 20px;
     font-size: 24px;
     color: #2F2325;
+    padding: 10px;
 }
 
 .conteudo-botao:hover {
     background-color: rgba(108, 91, 136, 0.87);
-}
-
-.conteudo-imagem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 300px;
-    padding: 20px;
-}
- 
-.conteudo-rodape{
-    padding: 32px;
-    width: auto;
-    height: 48px;
-    display: block;
-    margin: 0 auto;
-   
-   
-}
-
-.conteudo-imagem-rodape{
-    height: auto;
-    width:  auto;
-    display: block;
-    margin: 0 auto;
-    gap: 10px;
     
 }
 
+
+
+
+ 
+.conteudo-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-content: auto;
+  
+}
+
+.texto-rodape {
+    border-bottom: #8A1C79 48px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    margin-right: 300px;
+    padding-top: 300px;
+       
+}
+
 .copy {
-    display:flex;
-    width: auto;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copy-texto{
     display: block;
-    margin: 0 auto;
-    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+.telefone-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: auto;
+    
+}
+
+.telefone{
+   display: Column;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  
+}
+
+
+
+
+.formulario{
+    margin-top: 100px;
+    display: column;
+   flex-direction: row;
+   justify-content: space-around;
+   align-content: center;
+
+}
+
+.Destino{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.promo{
+    margin-top: auto;
+    padding: 30px;
+}
+
+
+.duvidas{
+    display: Column;
+    margin-left: 50px;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.duvidas-principal{
+    font-family: 'Comfortaa', sans-serif;
+    color: #8A1C79;
+    font-size: large;
+    width: 100%;
+
+}
+
+.duvidas-segundo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.duvidas-botao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    color: #8A1C79;
+    width: 90px;
+    height: 50px;
+    
 }
